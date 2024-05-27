@@ -104,8 +104,8 @@ void PWM_Initialize (void)
     PWMEVTF = 0x00;
     // MSTEN disabled; TRGMOD Single trigger mode; SOCS Self-trigger; UPDMOD SOC update; MPHSEL disabled; MPERSEL disabled; MDCSEL disabled; 
     PG1CONH = 0x00;
-    // MSTEN disabled; TRGMOD Retriggerrable mode; SOCS TRIG bit or PCI Sync function; UPDMOD SOC update; MPHSEL disabled; MPERSEL disabled; MDCSEL disabled; 
-    PG2CONH = 0x4F;
+    // MSTEN disabled; TRGMOD Retriggerrable mode; SOCS Trigger output selected by PG1 or PG5; UPDMOD SOC update; MPHSEL disabled; MPERSEL disabled; MDCSEL disabled; 
+    PG2CONH = 0x41;
     // MSTEN disabled; TRGMOD Single trigger mode; SOCS Trigger output selected by PG2 or PG6; UPDMOD SOC update; MPHSEL disabled; MPERSEL disabled; MDCSEL disabled; 
     PG3CONH = 0x02;
     // TRSET disabled; UPDREQ disabled; CLEVT disabled; TRCLR disabled; CAP disabled; SEVT disabled; FFEVT disabled; UPDATE disabled; FLTEVT disabled; 

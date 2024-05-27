@@ -26113,7 +26113,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="PWM" registerAlias="PG2CONH"/>
-         <value>79</value>
+         <value>65</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="PWM" registerAlias="PG2CONL"/>
@@ -27393,7 +27393,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="PWM" registerAlias="PG2CONH" settingAlias="SOCS"/>
-         <value>TRIG bit or PCI Sync function</value>
+         <value>Trigger output selected by PG1 or PG5</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="PWM" registerAlias="PG2CONH" settingAlias="TRIGMOD"/>
@@ -34527,11 +34527,11 @@
       </entry>
       <entry>
          <file>mcc_generated_files/mcc.h</file>
-         <hash>8254987f7db08402afa3ed9c1a9b6274e71bf023a28e58a6d92acb8b7a315e6c</hash>
+         <hash>d61e513b082e1852293d39b70998e2149fa89584f1df97549ee5560f331c2383</hash>
       </entry>
       <entry>
          <file>mcc_generated_files/pin_manager.c</file>
-         <hash>222a72f28502a322ea148c58196cd6afa2b7292de523284c5aee50948218698c</hash>
+         <hash>ae82013ccc9977a96b28e345566f365e3b0f37dcf03c37c8c72f387e421708da</hash>
       </entry>
       <entry>
          <file>mcc_generated_files/pin_manager.h</file>
@@ -34539,7 +34539,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files/pwm.c</file>
-         <hash>3d711dc9b9e72dd2a092eb24d27146f52bfbff8f3c9e6cf771b3193ae1a25ea8</hash>
+         <hash>0277fd8f0192544072239ce5db23e6441c711c5c6364a3643720535942b5d044</hash>
       </entry>
       <entry>
          <file>mcc_generated_files/pwm.h</file>
@@ -34563,7 +34563,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files/system.c</file>
-         <hash>3aa00d38ee08a799fe70696a486dc648391e18207366e2fc794ff94b4042545b</hash>
+         <hash>5afde92a9d4868838fe5830bef2e8d1f437361da4b9c35a204c7d5c2e2142516</hash>
       </entry>
       <entry>
          <file>mcc_generated_files/system.h</file>
